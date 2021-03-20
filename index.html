@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  
+  <body>
+    <h1>Light and Sound Memory Game</h1>
+    
+    <p>
+      Hello! Welcome to my memory game! Enjoy.
+    </p>
+    <p>
+      Click on the Start button to begin :)
+    </p>
+    
+    <!-- Start and Stop Buttons -->
+    <button id="startBtn" onclick="startGame()">
+      START
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      STOP
+    </button>
+    
+    
+    
+    <!-- General Game Buttons to Press -->
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()">
+        <img src="https://cdn.glitch.com/f9bb6869-9774-4c95-a31a-17b6b89ffc99%2FCuteCat.png?v=1614304816733">
+      </button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">
+        <img src="https://cdn.glitch.com/f9bb6869-9774-4c95-a31a-17b6b89ffc99%2FCuteCat.png?v=1614304816733">
+      </button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">
+        <img src="https://cdn.glitch.com/f9bb6869-9774-4c95-a31a-17b6b89ffc99%2FCuteCat.png?v=1614304816733">
+      </button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">
+        <img src="https://cdn.glitch.com/f9bb6869-9774-4c95-a31a-17b6b89ffc99%2FCuteCat.png?v=1614304816733">
+      </button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()">
+        <img src="https://cdn.glitch.com/f9bb6869-9774-4c95-a31a-17b6b89ffc99%2FCuteCat.png?v=1614304816733">
+      </button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()">
+        <img src="https://cdn.glitch.com/f9bb6869-9774-4c95-a31a-17b6b89ffc99%2FCuteCat.png?v=1614304816733">
+      </button>
+    </div>
+    
+    <p id="timeRemaining" class="hidden">
+      Time Remaining: 8s
+    </p>
+    <p id="triesRemaining" class="hidden">
+      Tries Remaining: 3
+    </p>
+
+  </body>
+  
+</html>
