@@ -6,7 +6,7 @@ Submitted by: **Dewan Tahmid**
 
 Time spent: **8** hours spent in total
 
-Link to website: https://uncovered-catnip-mousepad.glitch.me
+Link to website: https://uncovered-catnip-mousepad.glitch.me 
 Link to project: https://glitch.com/edit/#!/uncovered-catnip-mousepad
 
 ## Required Functionality
