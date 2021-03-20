@@ -1,0 +1,88 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background-color: #36454f;
+  color: white;
+
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+  font-style: bold;
+  color: white;
+}
+
+/* Hide an element */
+.hidden {
+  display: none;
+}
+
+/* Start and Stop Buttons */
+button {
+  padding: 10px;
+  border-radius: 10px;
+  font-familty: verdana, sans-serif;
+  font-style: bold;
+
+  width: 75px;
+  margin: 2px;
+}
+
+/* Game Area Buttons */
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+/* Coloring the individual buttons */
+#button1 {
+  background: pink;
+}
+#button2 {
+  background: peachpuff;
+}
+#button3 {
+  background: lightyellow;
+}
+#button4 {
+  background: palegreen;
+}
+#button5 {
+  background: lightblue;
+}
+#button6 {
+  background: lavender;
+}
+
+/* Clicking an individual button will color it */
+#button1:active,
+#button1.lit {
+  background: red;
+}
+#button2:active,
+#button2.lit {
+  background: orange;
+}
+#button3:active,
+#button3.lit {
+  background: yellow;
+}
+#button4:active,
+#button4.lit {
+  background: green;
+}
+#button5:active,
+#button5.lit {
+  background: blue;
+}
+#button6:active,
+#button6.lit {
+  background: purple;
+}
+
+img {
+  width: 100px;
+}
